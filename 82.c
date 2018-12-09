@@ -48,7 +48,7 @@ void writeStruct(ESTUDANTE *nome)//writes the info on the student
     scanf("%d", nome->telefone);
 }
 int equalEntry (ESTUDANTE *A,ESTUDANTE *B)//check if they are equal
-{
+{//TODO
     maisc first_maisc, second_maisc;//only to be used if it is the first letter
     minsc first_minsc, second_minsc;//to be use the other times
     int i=0;//will server to count syllables
@@ -58,4 +58,8 @@ int equalEntry (ESTUDANTE *A,ESTUDANTE *B)//check if they are equal
         ++i;
     }//if this ends it means the syllables don't match on the i
 
+}
+int comesFirst ()//TODO
+{
+    
 }
